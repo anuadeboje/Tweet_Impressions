@@ -5,7 +5,7 @@ Meat & KFC’s plant-based chicken nuggets. This type of real time real world fe
 stakeholders with the early opinions and judgements of the new product that might be difficult to
 get in a market research setting.
 
-Data Description:
+##Data Description:
 ● Tweet queries were built iteratively to insure only relevant tweets were included, order of
 words were preserved when necessary, see example queries below:
 ○ "Beyond+Meat+kfc -is:retweet" ,
@@ -17,7 +17,7 @@ words were preserved when necessary, see example queries below:
 ● Analysis aims to included roughly 5,000 tweets, unfortunately rate max and code errors
 resulted in a smaller than desired corpus
 
-Tools:
+##Tools:
 ● Tweepy along with the Twitter developer API is used to gather tweets
 ● NLTK Vader, for sentiment analysis
 ● Scapy
